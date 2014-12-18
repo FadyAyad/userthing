@@ -1,6 +1,6 @@
 <?php
 require_once('userthing/persist/UserStore.php');
-require_once('PHPUnit/Framework/TestCase.php');
+//require_once('PHPUnit/Framework/TestCase.php');
 
 
 class UserStoreTest extends PHPUnit_Framework_TestCase {

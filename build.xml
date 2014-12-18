@@ -51,8 +51,9 @@
            </fileset>
         </pearpkg2> 
     </target>
-
-    <target name="buildpackage" checkreturn="true"  depends="makepackagefile">
+	
+	<!-- checkreturn="true" -->
+    <target name="buildpackage" depends="makepackagefile">
         <exec dir="build" executable="/usr/bin/pear">
             <arg value="package" />
             <arg value="userthing_package.xml" />

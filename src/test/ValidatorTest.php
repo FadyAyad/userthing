@@ -1,7 +1,7 @@
 <?php
 require_once('userthing/persist/UserStore.php');
 require_once('userthing/util/Validator.php');
-require_once('PHPUnit/Framework/TestCase.php');
+//require_once('PHPUnit/Framework/TestCase.php');
 
 
 class ValidatorTest extends PHPUnit_Framework_TestCase {
